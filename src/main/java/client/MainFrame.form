@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="client.MainFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="850" height="598"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="fc8a9" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <tabPlacement value="2"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="6e8f0" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Browse"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="df143" binding="videosScrollPane">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="787d9" class="javax.swing.JList" binding="videosList">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="b3db9" class="javax.swing.JTextField" binding="searchTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <component id="9fff" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Search"/>
+                </properties>
+              </component>
+              <hspacer id="b5fb">
+                <constraints>
+                  <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="a18c8">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="4461d">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="bfc6a">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="e75d7">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="97c30" layout-manager="GridLayoutManager" row-count="14" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Upload"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5716b" class="javax.swing.JButton" binding="selectButton">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Select"/>
+                </properties>
+              </component>
+              <component id="4e3b7" class="javax.swing.JTextField" binding="videoPathTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <component id="a9f66" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Select Video"/>
+                </properties>
+              </component>
+              <component id="5208c" class="javax.swing.JTextField" binding="videoTitleTextField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <component id="f699b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Title"/>
+                </properties>
+              </component>
+              <component id="cfe0b" class="javax.swing.JTextField" binding="videoTagsTextField">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <component id="b10df" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Tags"/>
+                </properties>
+              </component>
+              <component id="a089d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Description"/>
+                </properties>
+              </component>
+              <component id="dfb9d" class="javax.swing.JTextArea" binding="videoDescTextArea">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <hspacer id="d7ba0">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="88e53">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="9615f">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="9b1ab" class="javax.swing.JButton" binding="uploadButton">
+                <constraints>
+                  <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Upload"/>
+                </properties>
+              </component>
+              <vspacer id="dd37f">
+                <constraints>
+                  <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="155c9">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="eba8b" class="javax.swing.JTextField" binding="videoCoverPathTextField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <enabled value="false"/>
+                  <font name="Segoe UI" size="18"/>
+                </properties>
+              </component>
+              <component id="c38a3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Select Cover"/>
+                </properties>
+              </component>
+              <component id="7be0" class="javax.swing.JButton" binding="videoCoverSelectButton">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="Select"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c9733" binding="videoPlayPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="" enabled="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <opaque value="true"/>
+              <visible value="true"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="14448" class="javax.swing.JButton" binding="backHistoryButton">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <focusPainted value="true"/>
+                  <font name="Segoe UI" size="16"/>
+                  <opaque value="true"/>
+                  <text value="&lt;"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="7538c" class="javax.swing.JButton" binding="forwardHistoryButton">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <font name="Segoe UI" size="16"/>
+                  <text value="&gt;"/>
+                </properties>
+              </component>
+              <component id="d1e0b" class="javax.swing.JButton" binding="playPauseButton" default-binding="true">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <font name="Segoe UI" size="16"/>
+                  <opaque value="true"/>
+                  <text value="Play/Pause"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
